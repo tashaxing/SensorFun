@@ -1,5 +1,5 @@
 //
-//  AcceleratorViewController.h
+//  ShakeViewController.h
 //  SensorFun
 //
 //  Created by yxhe on 16/11/19.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AcceleratorViewController : UIViewController
+@interface ShakeViewController : UIViewController
 
 @end

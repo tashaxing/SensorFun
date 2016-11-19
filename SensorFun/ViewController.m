@@ -9,7 +9,11 @@
 // ---- 调各种传感器 ---- //
 
 #import "ViewController.h"
+#import "ProximityViewController.h"
 #import "AcceleratorViewController.h"
+#import "CoreMotionViewController.h"
+#import "ShakeViewController.h"
+#import "PaceViewController.h"
 
 @interface ViewController ()
 
@@ -26,30 +30,36 @@
 // 进距离感应器
 - (IBAction)btn1:(id)sender
 {
-    AcceleratorViewController *vc = [[AcceleratorViewController alloc] init];
-    [self.navigationController pushViewController:<#(nonnull UIViewController *)#> animated:<#(BOOL)#>]
+    ProximityViewController *vc = [[ProximityViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 // 进加速感应器
 - (IBAction)btn2:(id)sender
 {
-    
+    AcceleratorViewController *vc = [[AcceleratorViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 // 进入coremotion
 - (IBAction)btn3:(id)sender
 {
+    CoreMotionViewController *vc = [[CoreMotionViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 // 进入摇一摇
 - (IBAction)btn4:(id)sender
 {
+    ShakeViewController *vc = [[ShakeViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 // 进入计步器
 - (IBAction)btn5:(id)sender
 {
-    
+    PaceViewController *vc = [[PaceViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

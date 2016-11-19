@@ -13,7 +13,11 @@
 		E41E728B1DDE869A00FE710C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41E72891DDE869A00FE710C /* Main.storyboard */; };
 		E41E728D1DDE869A00FE710C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41E728C1DDE869A00FE710C /* Assets.xcassets */; };
 		E41E72901DDE869A00FE710C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41E728E1DDE869A00FE710C /* LaunchScreen.storyboard */; };
-		E49FC1381DDEE89400155DA3 /* AcceleratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49FC1361DDEE89400155DA3 /* AcceleratorViewController.m */; };
+		E49FC1381DDEE89400155DA3 /* ProximityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49FC1361DDEE89400155DA3 /* ProximityViewController.m */; };
+		E49FC13E1DE00E3A00155DA3 /* AcceleratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49FC13D1DE00E3A00155DA3 /* AcceleratorViewController.m */; };
+		E49FC1411DE00F8600155DA3 /* CoreMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49FC1401DE00F8600155DA3 /* CoreMotionViewController.m */; };
+		E49FC1441DE00FF100155DA3 /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49FC1431DE00FF100155DA3 /* ShakeViewController.m */; };
+		E49FC1471DE0128A00155DA3 /* PaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49FC1461DE0128A00155DA3 /* PaceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +31,16 @@
 		E41E728C1DDE869A00FE710C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E41E728F1DDE869A00FE710C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E41E72911DDE869A00FE710C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E49FC1351DDEE89400155DA3 /* AcceleratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcceleratorViewController.h; sourceTree = "<group>"; };
-		E49FC1361DDEE89400155DA3 /* AcceleratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcceleratorViewController.m; sourceTree = "<group>"; };
+		E49FC1351DDEE89400155DA3 /* ProximityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProximityViewController.h; sourceTree = "<group>"; };
+		E49FC1361DDEE89400155DA3 /* ProximityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximityViewController.m; sourceTree = "<group>"; };
+		E49FC13C1DE00E3A00155DA3 /* AcceleratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcceleratorViewController.h; sourceTree = "<group>"; };
+		E49FC13D1DE00E3A00155DA3 /* AcceleratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcceleratorViewController.m; sourceTree = "<group>"; };
+		E49FC13F1DE00F8600155DA3 /* CoreMotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreMotionViewController.h; sourceTree = "<group>"; };
+		E49FC1401DE00F8600155DA3 /* CoreMotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreMotionViewController.m; sourceTree = "<group>"; };
+		E49FC1421DE00FF100155DA3 /* ShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeViewController.h; sourceTree = "<group>"; };
+		E49FC1431DE00FF100155DA3 /* ShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeViewController.m; sourceTree = "<group>"; };
+		E49FC1451DE0128A00155DA3 /* PaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaceViewController.h; sourceTree = "<group>"; };
+		E49FC1461DE0128A00155DA3 /* PaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +82,16 @@
 				E41E728E1DDE869A00FE710C /* LaunchScreen.storyboard */,
 				E41E72911DDE869A00FE710C /* Info.plist */,
 				E41E72801DDE869A00FE710C /* Supporting Files */,
-				E49FC1351DDEE89400155DA3 /* AcceleratorViewController.h */,
-				E49FC1361DDEE89400155DA3 /* AcceleratorViewController.m */,
+				E49FC1351DDEE89400155DA3 /* ProximityViewController.h */,
+				E49FC1361DDEE89400155DA3 /* ProximityViewController.m */,
+				E49FC13C1DE00E3A00155DA3 /* AcceleratorViewController.h */,
+				E49FC13D1DE00E3A00155DA3 /* AcceleratorViewController.m */,
+				E49FC13F1DE00F8600155DA3 /* CoreMotionViewController.h */,
+				E49FC1401DE00F8600155DA3 /* CoreMotionViewController.m */,
+				E49FC1421DE00FF100155DA3 /* ShakeViewController.h */,
+				E49FC1431DE00FF100155DA3 /* ShakeViewController.m */,
+				E49FC1451DE0128A00155DA3 /* PaceViewController.h */,
+				E49FC1461DE0128A00155DA3 /* PaceViewController.m */,
 			);
 			path = SensorFun;
 			sourceTree = "<group>";
@@ -158,8 +178,12 @@
 			files = (
 				E41E72881DDE869A00FE710C /* ViewController.m in Sources */,
 				E41E72851DDE869A00FE710C /* AppDelegate.m in Sources */,
-				E49FC1381DDEE89400155DA3 /* AcceleratorViewController.m in Sources */,
+				E49FC1441DE00FF100155DA3 /* ShakeViewController.m in Sources */,
+				E49FC13E1DE00E3A00155DA3 /* AcceleratorViewController.m in Sources */,
+				E49FC1381DDEE89400155DA3 /* ProximityViewController.m in Sources */,
 				E41E72821DDE869A00FE710C /* main.m in Sources */,
+				E49FC1411DE00F8600155DA3 /* CoreMotionViewController.m in Sources */,
+				E49FC1471DE0128A00155DA3 /* PaceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +305,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GV7V6SW596;
 				INFOPLIST_FILE = SensorFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tashaxing.SensorFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,6 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GV7V6SW596;
 				INFOPLIST_FILE = SensorFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tashaxing.SensorFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
